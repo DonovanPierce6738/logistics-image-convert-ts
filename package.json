@@ -1,0 +1,8 @@
+{
+  "name": "logistics-image-convert-ts",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node src/shipment_service.ts", "test": "node --test src/shipment_service.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"typescript": "^5.5.4", "@types/node": "^22.0.0"}
+}
